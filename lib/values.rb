@@ -10,7 +10,5 @@ require 'pry'
 
 def get_the_values(groceries)
   #code your solution here!
-  collection = []
-    collection << groceries.values
-  collection
+  groceries.values.flatten
 end
