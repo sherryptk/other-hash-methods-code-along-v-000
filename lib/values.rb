@@ -14,4 +14,5 @@ def get_the_values(groceries)
   groceries.each do |key, value|
     collection << value
   end
+  collection
 end
